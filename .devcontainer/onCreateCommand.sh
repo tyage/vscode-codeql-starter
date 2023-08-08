@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Download submodule ql
+git submodule init && git submodule update --recursive
+
 # Original: https://github.com/github/codespaces-codeql/blob/main/.devcontainer/onCreateCommand.sh
 
 # Assumes the gh CLI is present in the default Codespaces image.
